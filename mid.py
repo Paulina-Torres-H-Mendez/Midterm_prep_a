@@ -8,7 +8,7 @@ a == 5
 print(a)
 print(c*(a-b))
 d = c.find("b")
-rint(d)
+print(d)
 print(d and b)
 print(d == True)
 e = str(a) + str(b) + str(c) + str(d)
