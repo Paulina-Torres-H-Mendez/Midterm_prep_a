@@ -1,3 +1,5 @@
+
+punctuation = ",.!?"
 def find_words(filename):
     """prints the 3 letter word starting with b
     :param filename:the name of the file
@@ -5,6 +7,8 @@ def find_words(filename):
     """
     with open(filename, 'r') as f:
         for line in f:
+            for p in punctuation:
+                line = line.replace(p," ")
             # need to break down the line into words
             words = line.split() # by default splits by space
             #check each word
