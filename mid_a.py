@@ -1,4 +1,5 @@
-
+# Write a function that takes the name of a text file as parameter. Print out the 3-
+# letter words that start with “b”
 punctuation = ",.!?"
 def find_words(filename):
     """prints the 3 letter word starting with b
